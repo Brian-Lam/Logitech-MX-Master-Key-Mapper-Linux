@@ -16,3 +16,6 @@ chmod +x setup.sh
 
 ## Compatibility
 This has been tested on Ubuntu 18.04, a Debian distribution of Linux. It has also been tested with the [Logitech MX Master](https://amzn.to/2Cn3kjC), and [Logitech MX Master 2S](https://amzn.to/2CONteP).
+
+## Key Mappings
+![Key Mappings](http://brianlam.me/assets/images/blog/1539816345.png "Key Mappings")
