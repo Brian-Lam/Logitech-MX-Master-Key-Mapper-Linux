@@ -1,0 +1,3 @@
+xbindkeys
+xautomation
+xdotool
