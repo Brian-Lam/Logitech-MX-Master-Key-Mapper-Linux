@@ -1,6 +1,8 @@
 # Debian Linux mappings for Logitech MX Master 
 
-The Logitech MX Master mouse series are amazing mice for productivity, and come with fantastic Windows and Mac drivers. However, Logitech still has not released drivers for Linux, meaning Linux users do not get to have custom mappings to their buttons. 
+The Logitech MX Master mouse series are amazing mice for productivity, and come with fantastic Windows and Mac drivers. However, Logitech still has not released drivers for Linux, so Linux users cannot customize button mappings.
+
+Yes, despite them being a technology company with a $2.5 billion annual revenue, they won't develop Linux drivers for software engineers. So this is a workaround.
 
 This script installs a few packages for key binding mappings, and then copies over a ```.xbindkeysrc``` file to the home directory - this is used by ```xbindkeys``` to configure key mappings. 
 
