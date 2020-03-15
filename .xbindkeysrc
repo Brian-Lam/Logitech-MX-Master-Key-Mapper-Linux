@@ -1,15 +1,15 @@
-# thumb wheel up => increase volume and unmute      
+# thumb wheel up => previous page
 "xdotool key Alt_L+Right"
    b:6                                   
                                         
-# thumb wheel down => lower volume       
+# thumb wheel down => next page       
 "xdotool key Alt_L+Left"      
    b:7                                   
                                         
-# backward button => previous song       
+# backward button => volume down
 "xte 'key XF86AudioLowerVolume'"              
    b:8                                   
                                         
-# forward button => next song            
+# forward button => volume up         
 "xte 'key XF86AudioRaiseVolume'"            
    b:9
