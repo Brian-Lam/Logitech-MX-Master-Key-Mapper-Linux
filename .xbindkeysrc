@@ -1,8 +1,8 @@
-# thumb wheel up => previous page
+# thumb wheel up => next page
 "xdotool key Alt_L+Right"
    b:6                                   
                                         
-# thumb wheel down => next page       
+# thumb wheel down => previous page       
 "xdotool key Alt_L+Left"      
    b:7                                   
                                         
