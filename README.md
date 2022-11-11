@@ -15,7 +15,29 @@ To run the program, grant setup.sh executable permissions, and then run it.
 chmod +x setup.sh
 ./setup.sh
 ```
+If you perfer to have the buttons be your forward and back and the scroll wheel to control volume, edit your .xbindkeys as such.
 
+```
+# thumb wheel up => next page
+"xdotool key Alt_L+Right"
+   b:9
+# thumb wheel down => previous page       
+"xdotool key Alt_L+Left"
+   b:8
+# backward button => volume down
+"xte 'key XF86AudioLowerVolume'"
+   b:6
+# forward button => volume up         
+"xte 'key XF86AudioRaiseVolume'"
+   b:7
+```
+
+then to apply changes
+
+```
+pkill xbindkeys
+xbindkeys
+```
 ## Compatibility
 This has been tested on Ubuntu 18.04, a Debian distribution of Linux. It has also been tested with the [Logitech MX Master](https://amzn.to/2Cn3kjC), and [Logitech MX Master 2S](https://amzn.to/2CONteP).
 
